@@ -1,0 +1,142 @@
+video#myvideo{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -100;
+}
+
+body{
+    position: relative;
+}
+
+#navbar{
+    background: #20426A;
+    border: none;
+}
+
+#navbar a{
+    color: white;
+}
+
+#navbarCollapse{
+    padding: 0px 0px;
+}
+
+.nav li{
+    border-left: 0.1px solid black;
+    font-size: 16px;
+    padding: 0px 5px;
+}
+
+.nav li:last-child{
+    border-right: 0.1px solid black;
+}
+
+.navbar-right .active{
+    background-image: linear-gradient(to bottom, #132740 0%, #1f3f67 100%)
+}
+
+.navbar-nav li:hover{
+    color: white;
+}
+
+#home{
+    padding-top: 200px;
+    background: transparent;
+    color: white;
+    text-align: center;
+}
+
+#home p{
+    font-size: 30px;
+    padding: 15px 0px;
+}
+
+#home a{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 160px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: rgb(99, 226, 235);
+    border-color: rgb(99, 226, 235);
+}
+
+#home a:hover{
+    background-color: #116483;
+}
+
+#about{
+    padding-top: 100px;
+    color: white;
+}
+
+.row{
+    text-align: center;
+}
+
+.row img{
+    height: 130px;
+    width: 200px;
+}
+
+#image{
+    height: 130px;
+    width: 130px;
+}
+
+.row .col-md-4 p{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#ourpromise{
+    padding-top: 100px;
+    background: transparent;
+}
+
+#mycarousel{
+    height: 600px;
+    width: 70%;
+    margin: 0 auto;
+    background: transparent;
+    margin-bottom: 200px;
+}
+
+
+.item img{
+    width: 550px;
+    margin: 0 auto;
+}
+
+.item .carousel-caption{
+    padding-top: 50px;
+    font-size: 25px;
+    position: relative;
+    left: auto;
+    right: auto;
+}
+
+.footer{
+    color: white;
+    padding-top: 10px;
+    background: rgba(7, 37, 62, 0.5);
+    height: 55px;
+}
+
+
+@media (max-width:768px){
+    #home{
+        padding-top: 100px;
+    }
+    #home p{
+        font-size: 27px;
+    }
+    .row p{
+        padding-bottom: 30px;
+    }
+    #mycarousel{
+        width: 60%;
+        height: 500px;
+    }
+}
